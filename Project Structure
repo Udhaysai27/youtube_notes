@@ -1,0 +1,36 @@
+youtube-notes-saas/
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── config.py
+│   │   ├── models.py
+│   │   ├── auth.py
+│   │   ├── video_service.py
+│   │   ├── ai_service.py
+│   │   ├── database.py
+│   │   └── utils.py
+│   ├── requirements.txt
+│   ├── .env
+│   └── Dockerfile
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── VideoInput.jsx
+│   │   │   ├── NotebookView.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Register.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   └── Pricing.jsx
+│   │   ├── services/
+│   │   │   ├── api.js
+│   │   │   └── auth.js
+│   │   ├── App.jsx
+│   │   ├── index.js
+│   │   └── styles.css
+│   ├── package.json
+│   ├── tailwind.config.js
+│   └── Dockerfile
+├── docker-compose.yml
+└── README.md
